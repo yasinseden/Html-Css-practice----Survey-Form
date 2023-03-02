@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: $font-family;
+}
+
+.Container {
+    max-width: $max-width;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 $gutter $gutter*3;
+    background-color: rgb(115, 124, 190);
+}
+
+form {
+    width: 80%;
+}
+
+input {
+    line-height: 1.7em;
+}
+
+
+
+
+
